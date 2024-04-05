@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E63BE68B2BC08479006B9274 /* AsyncAwaitAPICalls_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63BE68A2BC08479006B9274 /* AsyncAwaitAPICalls_ViewController.swift */; };
+		E63BE68E2BC084B5006B9274 /* SwiftAPICallsWithAsyncAwaitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63BE68D2BC084B5006B9274 /* SwiftAPICallsWithAsyncAwaitView.swift */; };
+		E63BE6902BC0860B006B9274 /* GithubError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63BE68F2BC0860B006B9274 /* GithubError.swift */; };
+		E63BE6922BC08626006B9274 /* GithubUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63BE6912BC08626006B9274 /* GithubUser.swift */; };
+		E63BE6BA2BC0BA60006B9274 /* UIKitWithSwiftUI_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63BE6B92BC0BA60006B9274 /* UIKitWithSwiftUI_ViewController.swift */; };
+		E63BE6BC2BC0BAB9006B9274 /* ProgressBarSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63BE6BB2BC0BAB9006B9274 /* ProgressBarSwiftUIView.swift */; };
+		E63BE6BF2BC0BAFA006B9274 /* ProgressBarSwiftUIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63BE6BE2BC0BAFA006B9274 /* ProgressBarSwiftUIViewModel.swift */; };
 		E681A2072BB2823000423514 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E681A2062BB2823000423514 /* AppDelegate.swift */; };
 		E681A2092BB2823000423514 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E681A2082BB2823000423514 /* SceneDelegate.swift */; };
 		E681A20B2BB2823000423514 /* ConceptsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E681A20A2BB2823000423514 /* ConceptsListViewController.swift */; };
@@ -20,6 +27,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E63BE68A2BC08479006B9274 /* AsyncAwaitAPICalls_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitAPICalls_ViewController.swift; sourceTree = "<group>"; };
+		E63BE68D2BC084B5006B9274 /* SwiftAPICallsWithAsyncAwaitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAPICallsWithAsyncAwaitView.swift; sourceTree = "<group>"; };
+		E63BE68F2BC0860B006B9274 /* GithubError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubError.swift; sourceTree = "<group>"; };
+		E63BE6912BC08626006B9274 /* GithubUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubUser.swift; sourceTree = "<group>"; };
+		E63BE6B92BC0BA60006B9274 /* UIKitWithSwiftUI_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitWithSwiftUI_ViewController.swift; sourceTree = "<group>"; };
+		E63BE6BB2BC0BAB9006B9274 /* ProgressBarSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarSwiftUIView.swift; sourceTree = "<group>"; };
+		E63BE6BE2BC0BAFA006B9274 /* ProgressBarSwiftUIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarSwiftUIViewModel.swift; sourceTree = "<group>"; };
 		E681A2032BB2823000423514 /* ConceptLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConceptLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E681A2062BB2823000423514 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E681A2082BB2823000423514 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +59,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E63BE68C2BC08491006B9274 /* AsyncAwaitAPICalls */ = {
+			isa = PBXGroup;
+			children = (
+				E63BE68D2BC084B5006B9274 /* SwiftAPICallsWithAsyncAwaitView.swift */,
+				E63BE68F2BC0860B006B9274 /* GithubError.swift */,
+				E63BE6912BC08626006B9274 /* GithubUser.swift */,
+			);
+			path = AsyncAwaitAPICalls;
+			sourceTree = "<group>";
+		};
+		E63BE6BD2BC0BAD8006B9274 /* UIKitWithSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				E63BE6BB2BC0BAB9006B9274 /* ProgressBarSwiftUIView.swift */,
+				E63BE6BE2BC0BAFA006B9274 /* ProgressBarSwiftUIViewModel.swift */,
+			);
+			path = UIKitWithSwiftUI;
+			sourceTree = "<group>";
+		};
 		E681A1FA2BB2823000423514 = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +123,10 @@
 			isa = PBXGroup;
 			children = (
 				E681A2202BB35E4600423514 /* LayoutIfNeeded_ViewController.swift */,
+				E63BE68A2BC08479006B9274 /* AsyncAwaitAPICalls_ViewController.swift */,
+				E63BE68C2BC08491006B9274 /* AsyncAwaitAPICalls */,
+				E63BE6B92BC0BA60006B9274 /* UIKitWithSwiftUI_ViewController.swift */,
+				E63BE6BD2BC0BAD8006B9274 /* UIKitWithSwiftUI */,
 			);
 			path = Concepts;
 			sourceTree = "<group>";
@@ -174,12 +211,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				E681A21C2BB2855B00423514 /* ConceptCell.swift in Sources */,
+				E63BE6922BC08626006B9274 /* GithubUser.swift in Sources */,
+				E63BE6BF2BC0BAFA006B9274 /* ProgressBarSwiftUIViewModel.swift in Sources */,
 				E681A20B2BB2823000423514 /* ConceptsListViewController.swift in Sources */,
 				E681A2072BB2823000423514 /* AppDelegate.swift in Sources */,
 				E681A2092BB2823000423514 /* SceneDelegate.swift in Sources */,
+				E63BE6BC2BC0BAB9006B9274 /* ProgressBarSwiftUIView.swift in Sources */,
 				E681A2242BB3699000423514 /* ViewCodable.swift in Sources */,
 				E681A2212BB35E4600423514 /* LayoutIfNeeded_ViewController.swift in Sources */,
+				E63BE6BA2BC0BA60006B9274 /* UIKitWithSwiftUI_ViewController.swift in Sources */,
+				E63BE6902BC0860B006B9274 /* GithubError.swift in Sources */,
+				E63BE68E2BC084B5006B9274 /* SwiftAPICallsWithAsyncAwaitView.swift in Sources */,
 				E681A21E2BB2993300423514 /* Concepts.swift in Sources */,
+				E63BE68B2BC08479006B9274 /* AsyncAwaitAPICalls_ViewController.swift in Sources */,
 				E681A2262BB369A300423514 /* ChainedConstraints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

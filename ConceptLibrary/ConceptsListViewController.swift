@@ -41,15 +41,15 @@ extension ConceptsListViewController: UITableViewDelegate, UITableViewDataSource
         }
         let currentConcept = Concepts.allCases[indexPath.row]
         
-        cell.configure(title: currentConcept.rawValue,
-                       description: currentConcept.Description())
+        cell.configure(title: currentConcept.title,
+                       description: currentConcept.description)
         return cell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         
-        let openConcept = Concepts.allCases[indexPath.row].Type()
+        let openConcept = Concepts.allCases[indexPath.row].ViewController()
         openConcept.modalPresentationStyle = .overFullScreen
         self.navigationController?.pushViewController(openConcept, animated: true)
     }

@@ -8,33 +8,51 @@
 import UIKit
 
 enum Concepts: String, CaseIterable {
-    case first
-    case second
+    case UIKitWithSwiftUI
+    case AsyncAwaitAPICalls
     case LayoutIfNeeded
     
-    func Type() -> UIViewController {
+    var title: String {
         switch self {
-        case .first:
-            let vc = ConceptsListViewController()
-            vc.view.backgroundColor = .brown
-            return vc
-        case .second:
-            let vc = ConceptsListViewController()
-            vc.view.backgroundColor = .blue
-            return vc
+        case .UIKitWithSwiftUI:
+            return "UIKit with SwiftUI"
+        case .AsyncAwaitAPICalls:
+            return "Async Await API calls"
+        case .LayoutIfNeeded:
+            return "LayoutIfNeeded explained"
+        }
+    }
+    
+    var description: String {
+        switch self {
+        case .UIKitWithSwiftUI:
+            return "Programmatic UIKit viewController With SwiftUI integration"
+        case .AsyncAwaitAPICalls:
+            return "Async Await API calls with Github endpoint"
+        case .LayoutIfNeeded:
+            return "Reason behind needing to call LayoutIfNeeded "
+        }
+    }
+    
+    func ViewController() -> UIViewController {
+        switch self {
+        case .UIKitWithSwiftUI:
+            return UIKitWithSwiftUI_ViewController()
+        case .AsyncAwaitAPICalls:
+            return AsyncAwaitAPICalls_ViewController()
         case .LayoutIfNeeded:
             return LayoutIfNeeded_ViewController()
         }
     }
     
-    func Description() -> String {
-        switch self {
-        case .first:
-            return "first VC description"
-        case .second:
-            return "second VC description"
-        case .LayoutIfNeeded:
-            return "Reason behind needing to call LayoutIfNeeded "
-        }
-    }
+//    func Description() -> String {
+//        switch self {
+//        case .UIKitWithSwiftUI:
+//            return "Programmatic UIKit viewController With SwiftUI integration"
+//        case .AsyncAwaitAPICalls:
+//            return "Async Await API calls with Github endpoint"
+//        case .LayoutIfNeeded:
+//            return "Reason behind needing to call LayoutIfNeeded "
+//        }
+//    }
 }
