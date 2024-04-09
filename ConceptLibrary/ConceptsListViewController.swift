@@ -17,6 +17,10 @@ class ConceptsListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setupUI()
+        
+        Log.info("Slow network")
+        Log.warning("Change network")
+        Log.error("Wrong network")
     }
     
     @objc private func openInfoViewController() {
@@ -43,6 +47,13 @@ extension ConceptsListViewController: UITableViewDelegate, UITableViewDataSource
         
         cell.configure(title: currentConcept.title,
                        description: currentConcept.description)
+        
+        let bla2 = CGFloat(Concepts.allCases.count+5)
+        let bla = CGFloat(indexPath.row)
+        cell.backgroundColor = DebugColor.greenScale.color((bla/bla2)+5/bla2)
+        
+//        cell.debugMode(subLevels: 1, debugColor: .blueScale)
+        
         return cell
     }
     

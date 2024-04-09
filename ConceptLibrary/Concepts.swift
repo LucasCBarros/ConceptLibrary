@@ -11,6 +11,7 @@ enum Concepts: String, CaseIterable {
     case UIKitWithSwiftUI
     case AsyncAwaitAPICalls
     case LayoutIfNeeded
+    case GenericTableView
     
     var title: String {
         switch self {
@@ -20,6 +21,8 @@ enum Concepts: String, CaseIterable {
             return "Async Await API calls"
         case .LayoutIfNeeded:
             return "LayoutIfNeeded explained"
+        case .GenericTableView:
+            return "GenericTableView"
         }
     }
     
@@ -30,7 +33,9 @@ enum Concepts: String, CaseIterable {
         case .AsyncAwaitAPICalls:
             return "Async Await API calls with Github endpoint"
         case .LayoutIfNeeded:
-            return "Reason behind needing to call LayoutIfNeeded "
+            return "Reason behind needing to call LayoutIfNeeded"
+        case .GenericTableView:
+            return "GenericTableView"
         }
     }
     
@@ -42,17 +47,13 @@ enum Concepts: String, CaseIterable {
             return AsyncAwaitAPICalls_ViewController()
         case .LayoutIfNeeded:
             return LayoutIfNeeded_ViewController()
+        case .GenericTableView:
+            return EmbeddedViewControllerWithCollectionView_ViewController()
         }
     }
-    
-//    func Description() -> String {
-//        switch self {
-//        case .UIKitWithSwiftUI:
-//            return "Programmatic UIKit viewController With SwiftUI integration"
-//        case .AsyncAwaitAPICalls:
-//            return "Async Await API calls with Github endpoint"
-//        case .LayoutIfNeeded:
-//            return "Reason behind needing to call LayoutIfNeeded "
-//        }
-//    }
+}
+
+enum Sections: String, CaseIterable {
+    case UIConcepts
+    case DesignPattern
 }

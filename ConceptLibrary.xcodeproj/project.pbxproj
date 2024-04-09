@@ -14,6 +14,14 @@
 		E63BE6BA2BC0BA60006B9274 /* UIKitWithSwiftUI_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63BE6B92BC0BA60006B9274 /* UIKitWithSwiftUI_ViewController.swift */; };
 		E63BE6BC2BC0BAB9006B9274 /* ProgressBarSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63BE6BB2BC0BAB9006B9274 /* ProgressBarSwiftUIView.swift */; };
 		E63BE6BF2BC0BAFA006B9274 /* ProgressBarSwiftUIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63BE6BE2BC0BAFA006B9274 /* ProgressBarSwiftUIViewModel.swift */; };
+		E63BE6C12BC483E2006B9274 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63BE6C02BC483E2006B9274 /* Log.swift */; };
+		E63BE6E62BC4C2F5006B9274 /* EmbeddedViewControllerWithCollectionView_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63BE6E52BC4C2F5006B9274 /* EmbeddedViewControllerWithCollectionView_ViewController.swift */; };
+		E63BE6E92BC4C72B006B9274 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63BE6E82BC4C72B006B9274 /* CustomTableViewCell.swift */; };
+		E63BE6EB2BC5D96C006B9274 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63BE6EA2BC5D96C006B9274 /* CustomCollectionViewCell.swift */; };
+		E63BE6ED2BC5D9D5006B9274 /* ChainedFrameConstraints+EmbeddedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63BE6EC2BC5D9D5006B9274 /* ChainedFrameConstraints+EmbeddedVC.swift */; };
+		E63BE6EF2BC5DA3B006B9274 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63BE6EE2BC5DA3B006B9274 /* UIViewController+Alert.swift */; };
+		E63BE6F12BC5DA87006B9274 /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63BE6F02BC5DA87006B9274 /* CustomTableViewController.swift */; };
+		E63BE6F32BC5DAC2006B9274 /* CustomCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63BE6F22BC5DAC2006B9274 /* CustomCollectionViewController.swift */; };
 		E681A2072BB2823000423514 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E681A2062BB2823000423514 /* AppDelegate.swift */; };
 		E681A2092BB2823000423514 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E681A2082BB2823000423514 /* SceneDelegate.swift */; };
 		E681A20B2BB2823000423514 /* ConceptsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E681A20A2BB2823000423514 /* ConceptsListViewController.swift */; };
@@ -34,6 +42,14 @@
 		E63BE6B92BC0BA60006B9274 /* UIKitWithSwiftUI_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitWithSwiftUI_ViewController.swift; sourceTree = "<group>"; };
 		E63BE6BB2BC0BAB9006B9274 /* ProgressBarSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarSwiftUIView.swift; sourceTree = "<group>"; };
 		E63BE6BE2BC0BAFA006B9274 /* ProgressBarSwiftUIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarSwiftUIViewModel.swift; sourceTree = "<group>"; };
+		E63BE6C02BC483E2006B9274 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		E63BE6E52BC4C2F5006B9274 /* EmbeddedViewControllerWithCollectionView_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbeddedViewControllerWithCollectionView_ViewController.swift; sourceTree = "<group>"; };
+		E63BE6E82BC4C72B006B9274 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		E63BE6EA2BC5D96C006B9274 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		E63BE6EC2BC5D9D5006B9274 /* ChainedFrameConstraints+EmbeddedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChainedFrameConstraints+EmbeddedVC.swift"; sourceTree = "<group>"; };
+		E63BE6EE2BC5DA3B006B9274 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		E63BE6F02BC5DA87006B9274 /* CustomTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = "<group>"; };
+		E63BE6F22BC5DAC2006B9274 /* CustomCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewController.swift; sourceTree = "<group>"; };
 		E681A2032BB2823000423514 /* ConceptLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConceptLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E681A2062BB2823000423514 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E681A2082BB2823000423514 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +94,33 @@
 			path = UIKitWithSwiftUI;
 			sourceTree = "<group>";
 		};
+		E63BE6E72BC4C705006B9274 /* EmbeddedViewControllerWithCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				E63BE6F42BC5DAF3006B9274 /* GenericTableView */,
+				E63BE6F52BC5DB08006B9274 /* GenericCollectionView */,
+			);
+			path = EmbeddedViewControllerWithCollectionView;
+			sourceTree = "<group>";
+		};
+		E63BE6F42BC5DAF3006B9274 /* GenericTableView */ = {
+			isa = PBXGroup;
+			children = (
+				E63BE6F02BC5DA87006B9274 /* CustomTableViewController.swift */,
+				E63BE6E82BC4C72B006B9274 /* CustomTableViewCell.swift */,
+			);
+			path = GenericTableView;
+			sourceTree = "<group>";
+		};
+		E63BE6F52BC5DB08006B9274 /* GenericCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				E63BE6F22BC5DAC2006B9274 /* CustomCollectionViewController.swift */,
+				E63BE6EA2BC5D96C006B9274 /* CustomCollectionViewCell.swift */,
+			);
+			path = GenericCollectionView;
+			sourceTree = "<group>";
+		};
 		E681A1FA2BB2823000423514 = {
 			isa = PBXGroup;
 			children = (
@@ -99,7 +142,6 @@
 			children = (
 				E681A21A2BB2852100423514 /* Supporting */,
 				E681A20A2BB2823000423514 /* ConceptsListViewController.swift */,
-				E681A21B2BB2855B00423514 /* ConceptCell.swift */,
 				E681A21D2BB2993300423514 /* Concepts.swift */,
 				E681A21F2BB35CF200423514 /* Concepts */,
 				E681A2142BB2823200423514 /* Info.plist */,
@@ -114,6 +156,7 @@
 				E681A2112BB2823200423514 /* LaunchScreen.storyboard */,
 				E681A20F2BB2823200423514 /* Assets.xcassets */,
 				E681A2062BB2823000423514 /* AppDelegate.swift */,
+				E681A21B2BB2855B00423514 /* ConceptCell.swift */,
 				E681A2082BB2823000423514 /* SceneDelegate.swift */,
 			);
 			path = Supporting;
@@ -124,6 +167,8 @@
 			children = (
 				E681A2202BB35E4600423514 /* LayoutIfNeeded_ViewController.swift */,
 				E63BE68A2BC08479006B9274 /* AsyncAwaitAPICalls_ViewController.swift */,
+				E63BE6E52BC4C2F5006B9274 /* EmbeddedViewControllerWithCollectionView_ViewController.swift */,
+				E63BE6E72BC4C705006B9274 /* EmbeddedViewControllerWithCollectionView */,
 				E63BE68C2BC08491006B9274 /* AsyncAwaitAPICalls */,
 				E63BE6B92BC0BA60006B9274 /* UIKitWithSwiftUI_ViewController.swift */,
 				E63BE6BD2BC0BAD8006B9274 /* UIKitWithSwiftUI */,
@@ -135,6 +180,9 @@
 			isa = PBXGroup;
 			children = (
 				E681A2252BB369A200423514 /* ChainedConstraints.swift */,
+				E63BE6EC2BC5D9D5006B9274 /* ChainedFrameConstraints+EmbeddedVC.swift */,
+				E63BE6EE2BC5DA3B006B9274 /* UIViewController+Alert.swift */,
+				E63BE6C02BC483E2006B9274 /* Log.swift */,
 				E681A2232BB3699000423514 /* ViewCodable.swift */,
 			);
 			path = Extensions;
@@ -210,19 +258,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E63BE6E62BC4C2F5006B9274 /* EmbeddedViewControllerWithCollectionView_ViewController.swift in Sources */,
 				E681A21C2BB2855B00423514 /* ConceptCell.swift in Sources */,
 				E63BE6922BC08626006B9274 /* GithubUser.swift in Sources */,
 				E63BE6BF2BC0BAFA006B9274 /* ProgressBarSwiftUIViewModel.swift in Sources */,
 				E681A20B2BB2823000423514 /* ConceptsListViewController.swift in Sources */,
 				E681A2072BB2823000423514 /* AppDelegate.swift in Sources */,
+				E63BE6F12BC5DA87006B9274 /* CustomTableViewController.swift in Sources */,
+				E63BE6EB2BC5D96C006B9274 /* CustomCollectionViewCell.swift in Sources */,
 				E681A2092BB2823000423514 /* SceneDelegate.swift in Sources */,
+				E63BE6C12BC483E2006B9274 /* Log.swift in Sources */,
 				E63BE6BC2BC0BAB9006B9274 /* ProgressBarSwiftUIView.swift in Sources */,
+				E63BE6EF2BC5DA3B006B9274 /* UIViewController+Alert.swift in Sources */,
 				E681A2242BB3699000423514 /* ViewCodable.swift in Sources */,
+				E63BE6F32BC5DAC2006B9274 /* CustomCollectionViewController.swift in Sources */,
 				E681A2212BB35E4600423514 /* LayoutIfNeeded_ViewController.swift in Sources */,
 				E63BE6BA2BC0BA60006B9274 /* UIKitWithSwiftUI_ViewController.swift in Sources */,
 				E63BE6902BC0860B006B9274 /* GithubError.swift in Sources */,
 				E63BE68E2BC084B5006B9274 /* SwiftAPICallsWithAsyncAwaitView.swift in Sources */,
+				E63BE6ED2BC5D9D5006B9274 /* ChainedFrameConstraints+EmbeddedVC.swift in Sources */,
 				E681A21E2BB2993300423514 /* Concepts.swift in Sources */,
+				E63BE6E92BC4C72B006B9274 /* CustomTableViewCell.swift in Sources */,
 				E63BE68B2BC08479006B9274 /* AsyncAwaitAPICalls_ViewController.swift in Sources */,
 				E681A2262BB369A300423514 /* ChainedConstraints.swift in Sources */,
 			);
