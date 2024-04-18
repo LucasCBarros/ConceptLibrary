@@ -13,6 +13,7 @@ enum Concepts: String, CaseIterable {
     case LayoutIfNeeded
     case GenericTableView
     case Text2Speech
+    case VoiceRecognition
     
     var title: String {
         switch self {
@@ -26,6 +27,8 @@ enum Concepts: String, CaseIterable {
             return "GenericTableView"
         case .Text2Speech:
             return "Text to Speech"
+        case .VoiceRecognition:
+            return "Voice Recognition"
         }
     }
     
@@ -41,6 +44,8 @@ enum Concepts: String, CaseIterable {
             return "GenericTableView"
         case .Text2Speech:
             return "Text to Speech with a button"
+        case .VoiceRecognition:
+            return "Voice Recognition"
         }
     }
     
@@ -56,6 +61,8 @@ enum Concepts: String, CaseIterable {
             return EmbeddedViewControllerWithCollectionView_ViewController()
         case .Text2Speech:
             return Text2Speech_ViewController()
+        case .VoiceRecognition:
+            return VoiceRecognition_ViewController()
         }
     }
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		915F2FB83C3F113718993592 /* Pods_ConceptLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248A9B090B1E1CBE279E2A58 /* Pods_ConceptLibrary.framework */; };
 		E63BE68B2BC08479006B9274 /* AsyncAwaitAPICalls_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63BE68A2BC08479006B9274 /* AsyncAwaitAPICalls_ViewController.swift */; };
 		E63BE68E2BC084B5006B9274 /* SwiftAPICallsWithAsyncAwaitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63BE68D2BC084B5006B9274 /* SwiftAPICallsWithAsyncAwaitView.swift */; };
 		E63BE6902BC0860B006B9274 /* GithubError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63BE68F2BC0860B006B9274 /* GithubError.swift */; };
@@ -33,9 +34,12 @@
 		E681A2242BB3699000423514 /* ViewCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E681A2232BB3699000423514 /* ViewCodable.swift */; };
 		E681A2262BB369A300423514 /* ChainedConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = E681A2252BB369A200423514 /* ChainedConstraints.swift */; };
 		E6DA3CD22BD1CA7800307526 /* Text2Speech_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DA3CD12BD1CA7800307526 /* Text2Speech_ViewController.swift */; };
+		E6DA3CD42BD1D3DC00307526 /* VoiceRecognition_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DA3CD32BD1D3DC00307526 /* VoiceRecognition_ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		248A9B090B1E1CBE279E2A58 /* Pods_ConceptLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConceptLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A865ACA7A02C7127BAF247 /* Pods-ConceptLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConceptLibrary.debug.xcconfig"; path = "Target Support Files/Pods-ConceptLibrary/Pods-ConceptLibrary.debug.xcconfig"; sourceTree = "<group>"; };
 		E63BE68A2BC08479006B9274 /* AsyncAwaitAPICalls_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitAPICalls_ViewController.swift; sourceTree = "<group>"; };
 		E63BE68D2BC084B5006B9274 /* SwiftAPICallsWithAsyncAwaitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAPICallsWithAsyncAwaitView.swift; sourceTree = "<group>"; };
 		E63BE68F2BC0860B006B9274 /* GithubError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubError.swift; sourceTree = "<group>"; };
@@ -64,6 +68,8 @@
 		E681A2232BB3699000423514 /* ViewCodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewCodable.swift; sourceTree = "<group>"; };
 		E681A2252BB369A200423514 /* ChainedConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainedConstraints.swift; sourceTree = "<group>"; };
 		E6DA3CD12BD1CA7800307526 /* Text2Speech_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text2Speech_ViewController.swift; sourceTree = "<group>"; };
+		E6DA3CD32BD1D3DC00307526 /* VoiceRecognition_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRecognition_ViewController.swift; sourceTree = "<group>"; };
+		F4311E272ACEF7E39A44D43A /* Pods-ConceptLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConceptLibrary.release.xcconfig"; path = "Target Support Files/Pods-ConceptLibrary/Pods-ConceptLibrary.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,12 +77,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				915F2FB83C3F113718993592 /* Pods_ConceptLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		093925EC9162EEA3FFEE5C88 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37A865ACA7A02C7127BAF247 /* Pods-ConceptLibrary.debug.xcconfig */,
+				F4311E272ACEF7E39A44D43A /* Pods-ConceptLibrary.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C26535F86C0E93BB743B20D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				248A9B090B1E1CBE279E2A58 /* Pods_ConceptLibrary.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E63BE68C2BC08491006B9274 /* AsyncAwaitAPICalls */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +152,8 @@
 			children = (
 				E681A2052BB2823000423514 /* ConceptLibrary */,
 				E681A2042BB2823000423514 /* Products */,
+				093925EC9162EEA3FFEE5C88 /* Pods */,
+				C26535F86C0E93BB743B20D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -173,8 +199,9 @@
 				E63BE6E72BC4C705006B9274 /* EmbeddedViewControllerWithCollectionView */,
 				E63BE68C2BC08491006B9274 /* AsyncAwaitAPICalls */,
 				E63BE6B92BC0BA60006B9274 /* UIKitWithSwiftUI_ViewController.swift */,
-				E6DA3CD12BD1CA7800307526 /* Text2Speech_ViewController.swift */,
 				E63BE6BD2BC0BAD8006B9274 /* UIKitWithSwiftUI */,
+				E6DA3CD12BD1CA7800307526 /* Text2Speech_ViewController.swift */,
+				E6DA3CD32BD1D3DC00307526 /* VoiceRecognition_ViewController.swift */,
 			);
 			path = Concepts;
 			sourceTree = "<group>";
@@ -198,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E681A2172BB2823200423514 /* Build configuration list for PBXNativeTarget "ConceptLibrary" */;
 			buildPhases = (
+				9F7A001C8A9E744BE16ADD3B /* [CP] Check Pods Manifest.lock */,
 				E681A1FF2BB2823000423514 /* Sources */,
 				E681A2002BB2823000423514 /* Frameworks */,
 				E681A2012BB2823000423514 /* Resources */,
+				90AEEF8D51FA7006F0D5D717 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,11 +285,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		90AEEF8D51FA7006F0D5D717 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ConceptLibrary/Pods-ConceptLibrary-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ConceptLibrary/Pods-ConceptLibrary-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ConceptLibrary/Pods-ConceptLibrary-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F7A001C8A9E744BE16ADD3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ConceptLibrary-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E681A1FF2BB2823000423514 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6DA3CD42BD1D3DC00307526 /* VoiceRecognition_ViewController.swift in Sources */,
 				E63BE6E62BC4C2F5006B9274 /* EmbeddedViewControllerWithCollectionView_ViewController.swift in Sources */,
 				E681A21C2BB2855B00423514 /* ConceptCell.swift in Sources */,
 				E63BE6922BC08626006B9274 /* GithubUser.swift in Sources */,
@@ -423,12 +495,14 @@
 		};
 		E681A2182BB2823200423514 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37A865ACA7A02C7127BAF247 /* Pods-ConceptLibrary.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = F796PV2T27;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ConceptLibrary/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -450,12 +524,14 @@
 		};
 		E681A2192BB2823200423514 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4311E272ACEF7E39A44D43A /* Pods-ConceptLibrary.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = F796PV2T27;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ConceptLibrary/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
