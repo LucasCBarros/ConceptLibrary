@@ -12,6 +12,7 @@ enum Concepts: String, CaseIterable {
     case AsyncAwaitAPICalls
     case LayoutIfNeeded
     case GenericTableView
+    case Text2Speech
     
     var title: String {
         switch self {
@@ -23,6 +24,8 @@ enum Concepts: String, CaseIterable {
             return "LayoutIfNeeded explained"
         case .GenericTableView:
             return "GenericTableView"
+        case .Text2Speech:
+            return "Text to Speech"
         }
     }
     
@@ -36,6 +39,8 @@ enum Concepts: String, CaseIterable {
             return "Reason behind needing to call LayoutIfNeeded"
         case .GenericTableView:
             return "GenericTableView"
+        case .Text2Speech:
+            return "Text to Speech with a button"
         }
     }
     
@@ -49,6 +54,8 @@ enum Concepts: String, CaseIterable {
             return LayoutIfNeeded_ViewController()
         case .GenericTableView:
             return EmbeddedViewControllerWithCollectionView_ViewController()
+        case .Text2Speech:
+            return Text2Speech_ViewController()
         }
     }
 }
