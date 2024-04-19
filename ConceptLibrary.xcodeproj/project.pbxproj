@@ -35,7 +35,35 @@
 		E681A2262BB369A300423514 /* ChainedConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = E681A2252BB369A200423514 /* ChainedConstraints.swift */; };
 		E6DA3CD22BD1CA7800307526 /* Text2Speech_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DA3CD12BD1CA7800307526 /* Text2Speech_ViewController.swift */; };
 		E6DA3CD42BD1D3DC00307526 /* VoiceRecognition_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DA3CD32BD1D3DC00307526 /* VoiceRecognition_ViewController.swift */; };
+		E6DA3CD62BD1D75D00307526 /* VideoPlayer_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DA3CD52BD1D75D00307526 /* VideoPlayer_ViewController.swift */; };
+		E6DA3CF82BD1ED3000307526 /* My Sticker Extension StickerPackExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E6DA3CF72BD1ED3000307526 /* My Sticker Extension StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E6DA3CFC2BD1ED3000307526 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = E6DA3CFB2BD1ED3000307526 /* Stickers.xcstickers */; };
+		E6DA3CFD2BD1ED3000307526 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = E6DA3CFB2BD1ED3000307526 /* Stickers.xcstickers */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6DA3CF92BD1ED3000307526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E681A1FB2BB2823000423514 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6DA3CF62BD1ED3000307526;
+			remoteInfo = "My Sticker Extension StickerPackExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E6DA3D012BD1ED3000307526 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E6DA3CF82BD1ED3000307526 /* My Sticker Extension StickerPackExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		248A9B090B1E1CBE279E2A58 /* Pods_ConceptLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConceptLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +97,10 @@
 		E681A2252BB369A200423514 /* ChainedConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainedConstraints.swift; sourceTree = "<group>"; };
 		E6DA3CD12BD1CA7800307526 /* Text2Speech_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text2Speech_ViewController.swift; sourceTree = "<group>"; };
 		E6DA3CD32BD1D3DC00307526 /* VoiceRecognition_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRecognition_ViewController.swift; sourceTree = "<group>"; };
+		E6DA3CD52BD1D75D00307526 /* VideoPlayer_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayer_ViewController.swift; sourceTree = "<group>"; };
+		E6DA3CF42BD1ED3000307526 /* My Sticker Extension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Sticker Extension.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6DA3CF72BD1ED3000307526 /* My Sticker Extension StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "My Sticker Extension StickerPackExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6DA3CFB2BD1ED3000307526 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = "My Sticker Extension StickerPackExtension/Stickers.xcstickers"; sourceTree = "<group>"; };
 		F4311E272ACEF7E39A44D43A /* Pods-ConceptLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConceptLibrary.release.xcconfig"; path = "Target Support Files/Pods-ConceptLibrary/Pods-ConceptLibrary.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -150,6 +182,7 @@
 		E681A1FA2BB2823000423514 = {
 			isa = PBXGroup;
 			children = (
+				E6DA3CFB2BD1ED3000307526 /* Stickers.xcstickers */,
 				E681A2052BB2823000423514 /* ConceptLibrary */,
 				E681A2042BB2823000423514 /* Products */,
 				093925EC9162EEA3FFEE5C88 /* Pods */,
@@ -161,6 +194,8 @@
 			isa = PBXGroup;
 			children = (
 				E681A2032BB2823000423514 /* ConceptLibrary.app */,
+				E6DA3CF42BD1ED3000307526 /* My Sticker Extension.app */,
+				E6DA3CF72BD1ED3000307526 /* My Sticker Extension StickerPackExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -202,6 +237,7 @@
 				E63BE6BD2BC0BAD8006B9274 /* UIKitWithSwiftUI */,
 				E6DA3CD12BD1CA7800307526 /* Text2Speech_ViewController.swift */,
 				E6DA3CD32BD1D3DC00307526 /* VoiceRecognition_ViewController.swift */,
+				E6DA3CD52BD1D75D00307526 /* VideoPlayer_ViewController.swift */,
 			);
 			path = Concepts;
 			sourceTree = "<group>";
@@ -240,6 +276,38 @@
 			productReference = E681A2032BB2823000423514 /* ConceptLibrary.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E6DA3CF32BD1ED3000307526 /* My Sticker Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6DA3D022BD1ED3000307526 /* Build configuration list for PBXNativeTarget "My Sticker Extension" */;
+			buildPhases = (
+				E6DA3CF22BD1ED3000307526 /* Resources */,
+				E6DA3D012BD1ED3000307526 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6DA3CFA2BD1ED3000307526 /* PBXTargetDependency */,
+			);
+			name = "My Sticker Extension";
+			productName = "My Sticker Extension";
+			productReference = E6DA3CF42BD1ED3000307526 /* My Sticker Extension.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		E6DA3CF62BD1ED3000307526 /* My Sticker Extension StickerPackExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6DA3CFE2BD1ED3000307526 /* Build configuration list for PBXNativeTarget "My Sticker Extension StickerPackExtension" */;
+			buildPhases = (
+				E6DA3CF52BD1ED3000307526 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My Sticker Extension StickerPackExtension";
+			productName = "My Sticker Extension StickerPackExtension";
+			productReference = E6DA3CF72BD1ED3000307526 /* My Sticker Extension StickerPackExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -251,6 +319,12 @@
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					E681A2022BB2823000423514 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					E6DA3CF32BD1ED3000307526 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					E6DA3CF62BD1ED3000307526 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
@@ -269,6 +343,8 @@
 			projectRoot = "";
 			targets = (
 				E681A2022BB2823000423514 /* ConceptLibrary */,
+				E6DA3CF32BD1ED3000307526 /* My Sticker Extension */,
+				E6DA3CF62BD1ED3000307526 /* My Sticker Extension StickerPackExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -280,6 +356,22 @@
 			files = (
 				E681A2132BB2823200423514 /* LaunchScreen.storyboard in Resources */,
 				E681A2102BB2823200423514 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6DA3CF22BD1ED3000307526 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6DA3CFD2BD1ED3000307526 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6DA3CF52BD1ED3000307526 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6DA3CFC2BD1ED3000307526 /* Stickers.xcstickers in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +442,7 @@
 				E63BE6F32BC5DAC2006B9274 /* CustomCollectionViewController.swift in Sources */,
 				E681A2212BB35E4600423514 /* LayoutIfNeeded_ViewController.swift in Sources */,
 				E63BE6BA2BC0BA60006B9274 /* UIKitWithSwiftUI_ViewController.swift in Sources */,
+				E6DA3CD62BD1D75D00307526 /* VideoPlayer_ViewController.swift in Sources */,
 				E63BE6902BC0860B006B9274 /* GithubError.swift in Sources */,
 				E63BE68E2BC084B5006B9274 /* SwiftAPICallsWithAsyncAwaitView.swift in Sources */,
 				E63BE6ED2BC5D9D5006B9274 /* ChainedFrameConstraints+EmbeddedVC.swift in Sources */,
@@ -361,6 +454,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6DA3CFA2BD1ED3000307526 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6DA3CF62BD1ED3000307526 /* My Sticker Extension StickerPackExtension */;
+			targetProxy = E6DA3CF92BD1ED3000307526 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E681A2112BB2823200423514 /* LaunchScreen.storyboard */ = {
@@ -551,6 +652,94 @@
 			};
 			name = Release;
 		};
+		E6DA3CFF2BD1ED3000307526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F796PV2T27;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "My Sticker Extension StickerPackExtension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "My Sticker Extension";
+				INFOPLIST_KEY_NSStickerSharingLevel = OS;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LucasCBCompass.My-Sticker-Extension.StickerPackExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6DA3D002BD1ED3000307526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F796PV2T27;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "My Sticker Extension StickerPackExtension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "My Sticker Extension";
+				INFOPLIST_KEY_NSStickerSharingLevel = OS;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LucasCBCompass.My-Sticker-Extension.StickerPackExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E6DA3D032BD1ED3000307526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F796PV2T27;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "My Sticker Extension/Info.plist";
+				INFOPLIST_KEY_NSStickerSharingLevel = OS;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LucasCBCompass.My-Sticker-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6DA3D042BD1ED3000307526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F796PV2T27;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "My Sticker Extension/Info.plist";
+				INFOPLIST_KEY_NSStickerSharingLevel = OS;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LucasCBCompass.My-Sticker-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -568,6 +757,24 @@
 			buildConfigurations = (
 				E681A2182BB2823200423514 /* Debug */,
 				E681A2192BB2823200423514 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6DA3CFE2BD1ED3000307526 /* Build configuration list for PBXNativeTarget "My Sticker Extension StickerPackExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6DA3CFF2BD1ED3000307526 /* Debug */,
+				E6DA3D002BD1ED3000307526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6DA3D022BD1ED3000307526 /* Build configuration list for PBXNativeTarget "My Sticker Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6DA3D032BD1ED3000307526 /* Debug */,
+				E6DA3D042BD1ED3000307526 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
